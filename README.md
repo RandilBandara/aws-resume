@@ -1,4 +1,5 @@
-# AWS Resume Challenge
+# AWS Resume resumesitetos3.s3-website-us-east-1.amazonaws.com
+
 
 This project demonstrates building a resume website hosted on AWS with a visitor counter.
 
