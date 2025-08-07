@@ -1,6 +1,8 @@
 # AWS Resume 
 
-
+Check it out here:
+ S3 Website URL: http://resumesitetos3.s3-website-us-east-1.amazonaws.com/
+ CloudFront URL: https://d1p0gz8ox3l41q.cloudfront.net
 This project demonstrates building a resume website hosted on AWS with a visitor counter.
 
 ## Features
