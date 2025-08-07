@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+    <h1>Hello, I'm Randil Bandara</h1>
+    <p>Visitor count: <span id="visitorCount">Loading...</span></p>
+
+    <script>
+      fetch("https://54liho26v2.execute-api.us-east-1.amazonaws.com/counter")
+        .then(response => response.json())
+        .then(data => {
+          const count = data.visits;
+
+          document.getElementById("visitorCount").innerText = count;
+        })
+        .catch(() => {
+          document.getElementById("visitorCount").innerText = "Error";
+        });
+    </script>
+  </body>
+</html>
